@@ -3,12 +3,62 @@
     id="about"
     tag="section"
   >
-    <base-subheading>About me</base-subheading>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut tortor tellus. Donec maximus curs us pulvinar.
-      Proin vehicula eros mauris, sit amet rutrum libero vestibulum ac. Morbi ullamcorper eu lacus vulputate consect.
-      Etur vivamus sagittis accumsan quam eu malesuada. Proin et ante vel libero ultrices cursus. Donec felis leo, cu
-      rsus eget hendrerit at, congue nec enim.
-    </p>
+    <v-layout row>
+      <v-flex xs12>
+        <base-subheading>About me</base-subheading>
+      </v-flex>
+    </v-layout>
+    <v-layout
+      row
+      wrap
+      align-center
+      justify-center
+    >
+      <v-flex
+        xs8
+        offset-xs4
+        md3
+        offset-md1
+      >
+        <v-avatar size="120">
+          <img src="@/assets/logo.png">
+        </v-avatar>
+      </v-flex>
+      <v-flex
+        xs12
+        md6
+      >
+        <h2>スキルセット（レーダーチャートで）</h2>
+        <h4>Frontend</h4>
+        <p>
+          HTML,CSS,JavaScript,jQuery,Bootstrap,Vue.js,Vuex,Vuetify
+        </p>
+        <h4>Backend</h4>
+        <p>
+          Node.js,Express,
+          Java,SpringFramework,MyBatis,Jersey
+          Python,flask,Keras
+          Golang
+        </p>
+        <h4>DevOps</h4>
+        <p>
+          Scrum,AWS,GCP,Docker,MySQL,PostgreSQL,Jenkins,Gradle
+        </p>
+        <h4>SoftSkill</h4>
+        <p>
+          Facilitate
+        </p>
+        <h2>職務経歴</h2>
+        <p>
+          金融系大規模開発案件（基本設計〜総合テスト）；3年
+          仮想通貨案件(PoC〜総合テスト)；2年
+          新規事業開発（PoC〜）：1.5年
+        </p>
+        <h2>資格等</h2>
+        <p>
+          認定スクラムマスター,データベーススペシャリスト,セキュリティスペシャリスト,統計検定2級,応用情報技術者,基本情報技術者
+        </p>
+      </v-flex>
+    </v-layout>
   </v-container>
 </template>
