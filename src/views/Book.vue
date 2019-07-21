@@ -1,14 +1,13 @@
 <template>
   <div id="book">
-    <feed />
+    <reading />
   </div>
 </template>
 
 <script>
   export default {
-    name: 'Book',
     components: {
-      Feed: () => import('@/components/Feed')
+      Reading: () => import('@/components/Reading')
     }
   }
 </script>

@@ -49,7 +49,7 @@
                 </v-list-tile-avatar>
                 <v-list-tile-title>ADDRESS</v-list-tile-title>
                 <v-list-tile-sub-title>
-                  神奈川県川崎市中原区小杉町
+                  神奈川県川崎市
                 </v-list-tile-sub-title>
               </v-list-tile>
               <v-list-tile>
@@ -65,7 +65,7 @@
                 </v-list-tile-avatar>
                 <v-list-tile-title>PHONE</v-list-tile-title>
                 <v-list-tile-sub-title>
-                  080-XXXX-XXXX
+                  080-3556-XXXX
                 </v-list-tile-sub-title>
               </v-list-tile>
             </v-list>

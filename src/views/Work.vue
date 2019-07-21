@@ -1,14 +1,13 @@
 <template>
   <div id="work">
-    <feed />
+    <work-time-line />
   </div>
 </template>
 
 <script>
   export default {
-    name: 'Work',
     components: {
-      Feed: () => import('@/components/Feed')
+      WorkTimeLine: () => import('@/components/WorkTimeLine')
     }
   }
 </script>

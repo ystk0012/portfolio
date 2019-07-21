@@ -13,7 +13,7 @@
     >
       <v-layout>
         <v-img
-          :src="require('@/assets/icon2.png')"
+          :src="require('@/assets/icon.png')"
           class="mr-5"
           contain
           height="48"

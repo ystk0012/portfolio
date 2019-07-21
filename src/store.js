@@ -5,7 +5,8 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    articles: require('@/data/articles.json'),
+    reading: require('@/data/reading.json'),
+    works: require('@/data/works.json'),
     drawer: false,
     items: [
       {
@@ -23,10 +24,6 @@ export default new Vuex.Store({
       {
         text: 'Book',
         to: '/books'
-      },
-      {
-        text: 'Hobby',
-        to: '/hobbies'
       }
     ]
   },

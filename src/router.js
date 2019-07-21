@@ -4,7 +4,6 @@ import Home from './views/Home.vue'
 import About from './views/About.vue'
 import Work from './views/Work.vue'
 import Book from './views/Book.vue'
-import Hobby from './views/Hobby.vue'
 
 Vue.use(Router)
 
@@ -31,11 +30,6 @@ export default new Router({
       path: '/books',
       name: 'books',
       component: Book
-    },
-    {
-      path: '/hobbies',
-      name: 'hobbies',
-      component: Hobby
     }
   ]
 })

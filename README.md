@@ -1,6 +1,6 @@
-# Portfolio
+# My Portfolio
 
-## Project setup
+## setup
 
 ```
 yarn install

@@ -38,7 +38,7 @@
     data: () => ({
       items: [
         {
-          href: '#!',
+          href: 'https://twitter.com/yoitsu05',
           icon: 'mdi-twitter'
         },
         {
@@ -51,19 +51,7 @@
         },
         {
           href: '#!',
-          icon: 'mdi-google-plus'
-        },
-        {
-          href: '#!',
-          icon: 'mdi-reddit'
-        },
-        {
-          href: '#!',
           icon: 'mdi-discord'
-        },
-        {
-          href: '#!',
-          icon: 'mdi-pinterest'
         }
       ]
     })
